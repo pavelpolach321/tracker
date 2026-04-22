@@ -1,0 +1,7 @@
+{
+  "repositories": [
+    "microsoft/vscode",
+    "kubernetes/kubernetes",
+    "pallets/flask"
+  ]
+}
