@@ -30,7 +30,12 @@ def parse_args() -> argparse.Namespace:
 
 
 def load_repo_list(config_path: pathlib.Path) -> List[str]:
-    data = json.loads(config_path.read_text(encoding="utf-8"))
+    try:
+        data = json.loads(config_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise ValueError(
+            f"Invalid JSON in {config_path} at line {exc.lineno}, column {exc.colno}: {exc.msg}"
+        ) from exc
     repos = data.get("repositories", [])
     if not isinstance(repos, list) or not repos:
         raise ValueError("config must include a non-empty 'repositories' list")

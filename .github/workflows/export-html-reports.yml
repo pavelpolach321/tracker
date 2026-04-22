@@ -1,0 +1,45 @@
+name: Export HTML Reports
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export-reports:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install report dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install matplotlib
+
+      - name: Generate HTML reports
+        run: |
+          python3 scripts/generate_report.py --data-dir data --output-dir reports/html
+
+      - name: Create zip archive
+        run: |
+          stamp=$(date -u +"%Y%m%d-%H%M%S")
+          archive="html-reports-${stamp}.zip"
+          cd reports
+          zip -r "${archive}" html
+          mv "${archive}" ../
+
+      - name: Upload zip artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: html-reports
+          path: html-reports-*.zip
+          if-no-files-found: error
+          retention-days: 30
