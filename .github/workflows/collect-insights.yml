@@ -21,9 +21,19 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Validate traffic token
+        env:
+          GH_TOKEN: ${{ secrets.GH_TRAFFIC_TOKEN }}
+        run: |
+          if [[ -z "${GH_TOKEN}" ]]; then
+            echo "GH_TRAFFIC_TOKEN is missing or not available to this workflow."
+            echo "Create it under Settings -> Secrets and variables -> Actions -> Repository secrets."
+            exit 1
+          fi
+
       - name: Collect snapshots
         env:
-          GH_TOKEN: ${{ secrets.GH_TRAFFIC_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TRAFFIC_TOKEN }}
         run: |
           python3 scripts/fetch_insights.py --config config/repos.json --out-dir data
 
