@@ -70,8 +70,46 @@ def load_stars_series(metrics_dir: pathlib.Path, repo: str) -> List[Tuple[dt.dat
     return sorted(rows)
 
 
+def load_traffic_series_from_metrics(
+    metrics_dir: pathlib.Path, repo: str
+) -> List[Tuple[dt.date, int, int, int, int]]:
+    owner, name = repo.split("/", 1)
+    path = metrics_dir / owner / f"{name}.csv"
+    if not path.exists():
+        return []
+
+    rows: List[Tuple[dt.date, int, int, int, int]] = []
+    with path.open("r", encoding="utf-8", newline="") as f:
+        for row in csv.DictReader(f):
+            try:
+                d = dt.date.fromisoformat(row["date"])
+            except (KeyError, ValueError):
+                continue
+
+            def _to_int(v: str) -> int | None:
+                v = (v or "").strip()
+                if not v:
+                    return None
+                try:
+                    return int(v)
+                except ValueError:
+                    return None
+
+            views_total = _to_int(row.get("views_14d_total", ""))
+            views_unique = _to_int(row.get("views_14d_unique", ""))
+            clones_total = _to_int(row.get("clones_14d_total", ""))
+            clones_unique = _to_int(row.get("clones_14d_unique", ""))
+
+            if None in (views_total, views_unique, clones_total, clones_unique):
+                continue
+
+            rows.append((d, views_total, views_unique, clones_total, clones_unique))
+
+    return sorted(rows)
+
+
 def load_traffic_series(
-    snapshots_dir: pathlib.Path, repo: str
+    snapshots_dir: pathlib.Path, metrics_dir: pathlib.Path, repo: str
 ) -> List[Tuple[dt.date, int, int, int, int]]:
     """Return sorted list of (date, views_total, views_unique, clones_total, clones_unique).
 
@@ -100,7 +138,12 @@ def load_traffic_series(
                 except (KeyError, ValueError):
                     continue
 
-    return [(d, *v) for d, v in sorted(by_date.items())]
+    traffic_daily_rows = [(d, *v) for d, v in sorted(by_date.items())]
+    if traffic_daily_rows:
+        return traffic_daily_rows
+
+    # Fallback: use daily collected 14-day totals from per-repo metrics CSV.
+    return load_traffic_series_from_metrics(metrics_dir, repo)
 
 
 def load_referrers(
@@ -318,7 +361,7 @@ def main() -> int:
     for repo in repos:
         print(f"  Processing {repo} …")
         stars_series = load_stars_series(metrics_dir, repo)
-        traffic_series = load_traffic_series(snapshots_dir, repo)
+        traffic_series = load_traffic_series(snapshots_dir, metrics_dir, repo)
         referrers = load_referrers(snapshots_dir, repo)
 
         stars_chart = chart_stars(stars_series, repo)
