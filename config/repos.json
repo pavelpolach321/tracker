@@ -1,7 +1,11 @@
 {
   "repositories": [
-    "microsoft/vscode",
-    "kubernetes/kubernetes",
-    "pallets/flask"
+    "tropicsquare/libtropic",
+    "tropicsquare/tropic01"
+    "tropicsquare/libtropic-arduino"
+    "tropicsquare/ts-tvl"
+    "tropicsquare/libtropic-rs"
+    "tropicsquare/libtropic-go"
+    "tropicsquare/ts-tr01-app"
   ]
 }

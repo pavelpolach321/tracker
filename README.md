@@ -13,6 +13,10 @@ For each configured repository, the workflow captures:
 - watchers/subscribers
 - open issues
 - open pull requests
+- traffic views (14-day total and unique)
+- traffic clones (14-day total and unique)
+- top referrer websites (where users came from)
+- top popular paths (which pages users visited)
 - default branch
 - latest push date
 - latest release (if any)
@@ -26,8 +30,8 @@ GitHub traffic endpoints are often limited to short windows. This tracker avoids
 - `.github/workflows/collect-insights.yml`: Scheduled collection job
 - `config/repos.json`: List of repositories to track
 - `scripts/fetch_insights.py`: Collector and report generator
-- `data/snapshots/`: Daily JSON snapshots
-- `data/metrics_history.csv`: Long-term history for analytics
+- `data/snapshots/`: Daily JSON snapshots (single source of truth — contains all metrics, traffic, referrers, paths, and run status)
+- `data/metrics_history.csv`: Flat one-row-per-repo-per-day summary for quick manual analysis
 - `data/reports/`: Markdown reports
 
 ## Setup
@@ -47,8 +51,11 @@ git push -u origin main
 ## Running Locally
 
 ```bash
+export GH_TOKEN=<your_personal_access_token>
 python3 scripts/fetch_insights.py --config config/repos.json --out-dir data
 ```
+
+Use a token with at least `repo` scope for private repos and sufficient access to each tracked repo.
 
 ## Triggering Manually
 
@@ -56,6 +63,6 @@ In GitHub Actions, run `Collect OSS Insights` via **Run workflow**.
 
 ## Notes
 
-- The workflow uses `GITHUB_TOKEN` automatically.
-- For larger repository lists, consider using a Personal Access Token to increase API limits.
-- Data files are committed by the workflow on each run only when changes are detected.
+- The snapshot JSON is the single source of truth. It contains all metrics, full 14-day daily traffic, top referrers, top paths, and a run status block.
+- `data/metrics_history.csv` is a flat convenience table for quick analysis without parsing JSON.
+- If traffic shows as unavailable, check `traffic_error` in the snapshot `run` block or in `metrics_history.csv`.

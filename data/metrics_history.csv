@@ -1,4 +1,0 @@
-date,repository,stars,forks,watchers,open_issues,open_pull_requests,pushed_at,latest_release
-2026-04-22,kubernetes/kubernetes,121844,42892,3172,2800,973,2026-04-21T02:32:07Z,v1.35.4
-2026-04-22,microsoft/vscode,184122,39323,3407,16546,1788,2026-04-22T06:58:01Z,v0.44.2
-2026-04-22,pallets/flask,71436,16807,2083,3,3,2026-04-09T04:04:09Z,3.1.3
