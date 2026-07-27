@@ -1,0 +1,1265 @@
+{
+  "count": 7,
+  "date": "2026-07-27",
+  "repositories": [
+    {
+      "captured_at_utc": "2026-07-27T11:56:16.392301+00:00",
+      "clones_14d_total": 68869,
+      "clones_14d_unique": 2005,
+      "default_branch": "master",
+      "forks": 24,
+      "latest_release": "v4.0.0",
+      "open_issues": 3,
+      "open_pull_requests": 3,
+      "paths_error": "",
+      "paths_status": "ok",
+      "popular_paths": [
+        {
+          "count": 46,
+          "path": "/tropicsquare/libtropic",
+          "title": "Overview",
+          "uniques": 22
+        },
+        {
+          "count": 19,
+          "path": "/tropicsquare/libtropic/tree/master",
+          "title": "/tree/master",
+          "uniques": 9
+        },
+        {
+          "count": 9,
+          "path": "/tropicsquare/libtropic/pull/482",
+          "title": "/pull/482",
+          "uniques": 1
+        },
+        {
+          "count": 8,
+          "path": "/tropicsquare/libtropic/tree/master/src",
+          "title": "/tree/master/src",
+          "uniques": 6
+        },
+        {
+          "count": 6,
+          "path": "/tropicsquare/libtropic/pull/482/changes",
+          "title": "/pull/482/changes",
+          "uniques": 1
+        },
+        {
+          "count": 5,
+          "path": "/tropicsquare/libtropic/pulls",
+          "title": "/pulls",
+          "uniques": 3
+        },
+        {
+          "count": 5,
+          "path": "/tropicsquare/libtropic/tree/master/include",
+          "title": "/tree/master/include",
+          "uniques": 3
+        },
+        {
+          "count": 5,
+          "path": "/tropicsquare/libtropic/issues",
+          "title": "/issues",
+          "uniques": 2
+        },
+        {
+          "count": 4,
+          "path": "/tropicsquare/libtropic/pull/99",
+          "title": "/pull/99",
+          "uniques": 1
+        },
+        {
+          "count": 3,
+          "path": "/tropicsquare/libtropic/tree/master/examples",
+          "title": "/tree/master/examples",
+          "uniques": 3
+        }
+      ],
+      "popular_referrers": [
+        {
+          "count": 72,
+          "referrer": "github.com",
+          "uniques": 18
+        },
+        {
+          "count": 20,
+          "referrer": "Google",
+          "uniques": 6
+        },
+        {
+          "count": 4,
+          "referrer": "tropicsquare.com",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "referrer": "tropicsquare.github.io",
+          "uniques": 1
+        }
+      ],
+      "pushed_at": "2026-07-24T15:27:02Z",
+      "referrers_error": "",
+      "referrers_status": "ok",
+      "repository": "tropicsquare/libtropic",
+      "stars": 44,
+      "traffic_daily": [
+        {
+          "clones_total": 4221,
+          "clones_unique": 126,
+          "date": "2026-07-13",
+          "views_total": 8,
+          "views_unique": 3
+        },
+        {
+          "clones_total": 6986,
+          "clones_unique": 217,
+          "date": "2026-07-14",
+          "views_total": 10,
+          "views_unique": 5
+        },
+        {
+          "clones_total": 6180,
+          "clones_unique": 227,
+          "date": "2026-07-15",
+          "views_total": 4,
+          "views_unique": 2
+        },
+        {
+          "clones_total": 5075,
+          "clones_unique": 279,
+          "date": "2026-07-16",
+          "views_total": 2,
+          "views_unique": 2
+        },
+        {
+          "clones_total": 4376,
+          "clones_unique": 186,
+          "date": "2026-07-17",
+          "views_total": 4,
+          "views_unique": 4
+        },
+        {
+          "clones_total": 1970,
+          "clones_unique": 106,
+          "date": "2026-07-18",
+          "views_total": 16,
+          "views_unique": 5
+        },
+        {
+          "clones_total": 2815,
+          "clones_unique": 111,
+          "date": "2026-07-19",
+          "views_total": 14,
+          "views_unique": 7
+        },
+        {
+          "clones_total": 5289,
+          "clones_unique": 142,
+          "date": "2026-07-20",
+          "views_total": 47,
+          "views_unique": 3
+        },
+        {
+          "clones_total": 7448,
+          "clones_unique": 208,
+          "date": "2026-07-21",
+          "views_total": 3,
+          "views_unique": 3
+        },
+        {
+          "clones_total": 6613,
+          "clones_unique": 198,
+          "date": "2026-07-22",
+          "views_total": 24,
+          "views_unique": 4
+        },
+        {
+          "clones_total": 7502,
+          "clones_unique": 218,
+          "date": "2026-07-23",
+          "views_total": 22,
+          "views_unique": 7
+        },
+        {
+          "clones_total": 5680,
+          "clones_unique": 168,
+          "date": "2026-07-24",
+          "views_total": 38,
+          "views_unique": 7
+        },
+        {
+          "clones_total": 1896,
+          "clones_unique": 83,
+          "date": "2026-07-25",
+          "views_total": 1,
+          "views_unique": 1
+        },
+        {
+          "clones_total": 2818,
+          "clones_unique": 88,
+          "date": "2026-07-26",
+          "views_total": 3,
+          "views_unique": 2
+        }
+      ],
+      "traffic_error": "",
+      "traffic_status": "ok",
+      "views_14d_total": 196,
+      "views_14d_unique": 36,
+      "watchers": 4
+    },
+    {
+      "captured_at_utc": "2026-07-27T11:56:18.063930+00:00",
+      "clones_14d_total": 23,
+      "clones_14d_unique": 19,
+      "default_branch": "main",
+      "forks": 9,
+      "latest_release": null,
+      "open_issues": 2,
+      "open_pull_requests": 1,
+      "paths_error": "",
+      "paths_status": "ok",
+      "popular_paths": [
+        {
+          "count": 77,
+          "path": "/tropicsquare/tropic01",
+          "title": "Overview",
+          "uniques": 46
+        },
+        {
+          "count": 36,
+          "path": "/tropicsquare/tropic01/blob/main/doc/security_reports/ODR_TR01_PSR_006_FI_KUL_1v0.pdf",
+          "title": "/blob/main/doc/security_reports/ODR_TR01_PSR_006_FI_KUL_1v0.pdf",
+          "uniques": 31
+        },
+        {
+          "count": 12,
+          "path": "/tropicsquare/tropic01/tree/main/doc",
+          "title": "/tree/main/doc",
+          "uniques": 11
+        },
+        {
+          "count": 12,
+          "path": "/tropicsquare/tropic01/blob/main/doc/pages/part-numbers.md",
+          "title": "/blob/main/doc/pages/part-numbers.md",
+          "uniques": 9
+        },
+        {
+          "count": 9,
+          "path": "/tropicsquare/tropic01/blob/main/doc/application_notes/ODN_TR01_app_008_sec_arch_1v1.pdf",
+          "title": "/blob/main/doc/application_notes/ODN_TR01_app_008_sec_arch_1v1.pdf",
+          "uniques": 7
+        },
+        {
+          "count": 9,
+          "path": "/tropicsquare/tropic01/blob/main/doc/pages/FAQ.md",
+          "title": "/blob/main/doc/pages/FAQ.md",
+          "uniques": 7
+        },
+        {
+          "count": 9,
+          "path": "/tropicsquare/tropic01/tree/main/doc/security_reports",
+          "title": "/tree/main/doc/security_reports",
+          "uniques": 7
+        },
+        {
+          "count": 9,
+          "path": "/tropicsquare/tropic01/blob/main/doc/pages/security-reports.md",
+          "title": "/blob/main/doc/pages/security-reports.md",
+          "uniques": 6
+        },
+        {
+          "count": 8,
+          "path": "/tropicsquare/TROPIC01",
+          "title": "Overview",
+          "uniques": 7
+        },
+        {
+          "count": 7,
+          "path": "/tropicsquare/tropic01/blob/main/doc/datasheet/ODD_TR01_datasheet_vA_10.pdf",
+          "title": "/blob/main/doc/datasheet/ODD_TR01_datasheet_vA_10.pdf",
+          "uniques": 6
+        }
+      ],
+      "popular_referrers": [
+        {
+          "count": 81,
+          "referrer": "github.com",
+          "uniques": 28
+        },
+        {
+          "count": 77,
+          "referrer": "tropicsquare.com",
+          "uniques": 24
+        },
+        {
+          "count": 18,
+          "referrer": "Google",
+          "uniques": 7
+        },
+        {
+          "count": 9,
+          "referrer": "linkedin.com",
+          "uniques": 7
+        },
+        {
+          "count": 7,
+          "referrer": "com.linkedin.android",
+          "uniques": 2
+        },
+        {
+          "count": 5,
+          "referrer": "search.brave.com",
+          "uniques": 2
+        },
+        {
+          "count": 4,
+          "referrer": "t.co",
+          "uniques": 3
+        },
+        {
+          "count": 3,
+          "referrer": "tropicsquare.github.io",
+          "uniques": 1
+        }
+      ],
+      "pushed_at": "2026-07-27T11:50:32Z",
+      "referrers_error": "",
+      "referrers_status": "ok",
+      "repository": "tropicsquare/tropic01",
+      "stars": 95,
+      "traffic_daily": [
+        {
+          "clones_total": 2,
+          "clones_unique": 2,
+          "date": "2026-07-13",
+          "views_total": 17,
+          "views_unique": 7
+        },
+        {
+          "clones_total": 3,
+          "clones_unique": 3,
+          "date": "2026-07-14",
+          "views_total": 23,
+          "views_unique": 15
+        },
+        {
+          "clones_total": 4,
+          "clones_unique": 2,
+          "date": "2026-07-15",
+          "views_total": 25,
+          "views_unique": 13
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-16",
+          "views_total": 29,
+          "views_unique": 11
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-17",
+          "views_total": 12,
+          "views_unique": 9
+        },
+        {
+          "clones_total": 3,
+          "clones_unique": 3,
+          "date": "2026-07-18",
+          "views_total": 19,
+          "views_unique": 8
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-19",
+          "views_total": 25,
+          "views_unique": 8
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-20",
+          "views_total": 19,
+          "views_unique": 9
+        },
+        {
+          "clones_total": 5,
+          "clones_unique": 3,
+          "date": "2026-07-21",
+          "views_total": 29,
+          "views_unique": 9
+        },
+        {
+          "clones_total": 1,
+          "clones_unique": 1,
+          "date": "2026-07-22",
+          "views_total": 26,
+          "views_unique": 12
+        },
+        {
+          "clones_total": 1,
+          "clones_unique": 1,
+          "date": "2026-07-23",
+          "views_total": 12,
+          "views_unique": 8
+        },
+        {
+          "clones_total": 1,
+          "clones_unique": 1,
+          "date": "2026-07-24",
+          "views_total": 33,
+          "views_unique": 10
+        },
+        {
+          "clones_total": 2,
+          "clones_unique": 2,
+          "date": "2026-07-25",
+          "views_total": 21,
+          "views_unique": 8
+        },
+        {
+          "clones_total": 1,
+          "clones_unique": 1,
+          "date": "2026-07-26",
+          "views_total": 13,
+          "views_unique": 7
+        }
+      ],
+      "traffic_error": "",
+      "traffic_status": "ok",
+      "views_14d_total": 303,
+      "views_14d_unique": 108,
+      "watchers": 8
+    },
+    {
+      "captured_at_utc": "2026-07-27T11:56:19.738776+00:00",
+      "clones_14d_total": 6,
+      "clones_14d_unique": 6,
+      "default_branch": "main",
+      "forks": 2,
+      "latest_release": "v0.8.0",
+      "open_issues": 2,
+      "open_pull_requests": 1,
+      "paths_error": "",
+      "paths_status": "ok",
+      "popular_paths": [
+        {
+          "count": 20,
+          "path": "/tropicsquare/libtropic-arduino/pull/23",
+          "title": "/pull/23",
+          "uniques": 3
+        },
+        {
+          "count": 5,
+          "path": "/tropicsquare/libtropic-arduino/pull/23/changes",
+          "title": "/pull/23/changes",
+          "uniques": 2
+        },
+        {
+          "count": 4,
+          "path": "/tropicsquare/libtropic-arduino",
+          "title": "Overview",
+          "uniques": 2
+        },
+        {
+          "count": 3,
+          "path": "/tropicsquare/libtropic-arduino/pulls",
+          "title": "/pulls",
+          "uniques": 1
+        },
+        {
+          "count": 2,
+          "path": "/tropicsquare/libtropic-arduino/pull/23/conflicts",
+          "title": "/pull/23/conflicts",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/tropicsquare/libtropic-arduino/blob/main/CHANGELOG.md",
+          "title": "/blob/main/CHANGELOG.md",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/tropicsquare/libtropic-arduino/blob/main/examples/ECDSA_P256/ECDSA_P256.ino",
+          "title": "/blob/main/examples/ECDSA_P256/ECDSA_P256.ino",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/tropicsquare/libtropic-arduino/compare/develop...Caza20:feat/rpi-pico",
+          "title": "/compare/develop...Caza20:feat/rpi-pico",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/tropicsquare/libtropic-arduino/issues/22",
+          "title": "/issues/22",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/tropicsquare/libtropic-arduino/pull/23/changes/BASE..e62e4ab5e9d526a049fb98a7394d2fae5b0bf56f",
+          "title": "/pull/23/changes/BASE..e62e4ab5e9d526a049fb98a7394d2fae5b0bf56f",
+          "uniques": 1
+        }
+      ],
+      "popular_referrers": [
+        {
+          "count": 7,
+          "referrer": "Google",
+          "uniques": 2
+        },
+        {
+          "count": 1,
+          "referrer": "github.com",
+          "uniques": 1
+        }
+      ],
+      "pushed_at": "2026-05-13T15:48:15Z",
+      "referrers_error": "",
+      "referrers_status": "ok",
+      "repository": "tropicsquare/libtropic-arduino",
+      "stars": 2,
+      "traffic_daily": [
+        {
+          "clones_total": 2,
+          "clones_unique": 2,
+          "date": "2026-07-13",
+          "views_total": 27,
+          "views_unique": 3
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-14",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-15",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-16",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 2,
+          "clones_unique": 2,
+          "date": "2026-07-17",
+          "views_total": 15,
+          "views_unique": 2
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-18",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-19",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-20",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-21",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-22",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-23",
+          "views_total": 3,
+          "views_unique": 1
+        },
+        {
+          "clones_total": 1,
+          "clones_unique": 1,
+          "date": "2026-07-24",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 1,
+          "clones_unique": 1,
+          "date": "2026-07-25",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-26",
+          "views_total": 0,
+          "views_unique": 0
+        }
+      ],
+      "traffic_error": "",
+      "traffic_status": "ok",
+      "views_14d_total": 45,
+      "views_14d_unique": 4,
+      "watchers": 0
+    },
+    {
+      "captured_at_utc": "2026-07-27T11:56:21.473986+00:00",
+      "clones_14d_total": 68553,
+      "clones_14d_unique": 2219,
+      "default_branch": "public",
+      "forks": 10,
+      "latest_release": "2.4",
+      "open_issues": 4,
+      "open_pull_requests": 1,
+      "paths_error": "",
+      "paths_status": "ok",
+      "popular_paths": [
+        {
+          "count": 33,
+          "path": "/tropicsquare/ts-tvl",
+          "title": "Overview",
+          "uniques": 19
+        },
+        {
+          "count": 15,
+          "path": "/tropicsquare/ts-tvl/pulls",
+          "title": "/pulls",
+          "uniques": 6
+        },
+        {
+          "count": 15,
+          "path": "/tropicsquare/ts-tvl/pull/14",
+          "title": "/pull/14",
+          "uniques": 5
+        },
+        {
+          "count": 6,
+          "path": "/tropicsquare/ts-tvl/pull/15",
+          "title": "/pull/15",
+          "uniques": 3
+        },
+        {
+          "count": 4,
+          "path": "/tropicsquare/ts-tvl/issues",
+          "title": "/issues",
+          "uniques": 4
+        },
+        {
+          "count": 4,
+          "path": "/tropicsquare/ts-tvl/tree/public/tvl",
+          "title": "/tree/public/tvl",
+          "uniques": 2
+        },
+        {
+          "count": 4,
+          "path": "/tropicsquare/ts-tvl/pull/14/commits/c0e61533563b15cc1fe120b9007af61fc5bbe1f5",
+          "title": "/pull/14/commits/c0e61533563b15cc1fe120b9007af61fc5bbe1f5",
+          "uniques": 1
+        },
+        {
+          "count": 3,
+          "path": "/tropicsquare/ts-tvl/pull/14/changes",
+          "title": "/pull/14/changes",
+          "uniques": 3
+        },
+        {
+          "count": 3,
+          "path": "/tropicsquare/ts-tvl/pull/14/commits",
+          "title": "/pull/14/commits",
+          "uniques": 2
+        },
+        {
+          "count": 2,
+          "path": "/tropicsquare/ts-tvl/pull/15/files",
+          "title": "/pull/15/files",
+          "uniques": 2
+        }
+      ],
+      "popular_referrers": [
+        {
+          "count": 7,
+          "referrer": "startupjobs.cz",
+          "uniques": 6
+        },
+        {
+          "count": 5,
+          "referrer": "Google",
+          "uniques": 2
+        },
+        {
+          "count": 3,
+          "referrer": "github.com",
+          "uniques": 2
+        },
+        {
+          "count": 2,
+          "referrer": "linkedin.com",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "referrer": "tropic-ops.atlassian.net",
+          "uniques": 1
+        }
+      ],
+      "pushed_at": "2026-07-24T16:14:57Z",
+      "referrers_error": "",
+      "referrers_status": "ok",
+      "repository": "tropicsquare/ts-tvl",
+      "stars": 4,
+      "traffic_daily": [
+        {
+          "clones_total": 4235,
+          "clones_unique": 157,
+          "date": "2026-07-13",
+          "views_total": 8,
+          "views_unique": 2
+        },
+        {
+          "clones_total": 6971,
+          "clones_unique": 241,
+          "date": "2026-07-14",
+          "views_total": 2,
+          "views_unique": 2
+        },
+        {
+          "clones_total": 6156,
+          "clones_unique": 228,
+          "date": "2026-07-15",
+          "views_total": 17,
+          "views_unique": 6
+        },
+        {
+          "clones_total": 5048,
+          "clones_unique": 261,
+          "date": "2026-07-16",
+          "views_total": 7,
+          "views_unique": 5
+        },
+        {
+          "clones_total": 4294,
+          "clones_unique": 156,
+          "date": "2026-07-17",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 1960,
+          "clones_unique": 110,
+          "date": "2026-07-18",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 2815,
+          "clones_unique": 127,
+          "date": "2026-07-19",
+          "views_total": 2,
+          "views_unique": 1
+        },
+        {
+          "clones_total": 5270,
+          "clones_unique": 170,
+          "date": "2026-07-20",
+          "views_total": 6,
+          "views_unique": 3
+        },
+        {
+          "clones_total": 7441,
+          "clones_unique": 242,
+          "date": "2026-07-21",
+          "views_total": 2,
+          "views_unique": 1
+        },
+        {
+          "clones_total": 6581,
+          "clones_unique": 204,
+          "date": "2026-07-22",
+          "views_total": 27,
+          "views_unique": 4
+        },
+        {
+          "clones_total": 7471,
+          "clones_unique": 249,
+          "date": "2026-07-23",
+          "views_total": 46,
+          "views_unique": 11
+        },
+        {
+          "clones_total": 5596,
+          "clones_unique": 190,
+          "date": "2026-07-24",
+          "views_total": 2,
+          "views_unique": 2
+        },
+        {
+          "clones_total": 1891,
+          "clones_unique": 92,
+          "date": "2026-07-25",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 2824,
+          "clones_unique": 108,
+          "date": "2026-07-26",
+          "views_total": 5,
+          "views_unique": 1
+        }
+      ],
+      "traffic_error": "",
+      "traffic_status": "ok",
+      "views_14d_total": 124,
+      "views_14d_unique": 24,
+      "watchers": 4
+    },
+    {
+      "captured_at_utc": "2026-07-27T11:56:23.049281+00:00",
+      "clones_14d_total": 49,
+      "clones_14d_unique": 23,
+      "default_branch": "master",
+      "forks": 3,
+      "latest_release": null,
+      "open_issues": 0,
+      "open_pull_requests": 0,
+      "paths_error": "",
+      "paths_status": "ok",
+      "popular_paths": [
+        {
+          "count": 13,
+          "path": "/tropicsquare/libtropic-rs",
+          "title": "Overview",
+          "uniques": 9
+        },
+        {
+          "count": 3,
+          "path": "/tropicsquare/libtropic-rs/blob/master/tropic01-example-usb-devkit/README.md",
+          "title": "/blob/master/tropic01-example-usb-devkit/README.md",
+          "uniques": 3
+        },
+        {
+          "count": 2,
+          "path": "/tropicsquare/libtropic-rs/blob/master/tropic01-example-usb-devkit/src/ecc_eddsa.rs",
+          "title": "/blob/master/tropic01-example-usb-devkit/src/ecc_eddsa.rs",
+          "uniques": 2
+        },
+        {
+          "count": 2,
+          "path": "/tropicsquare/libtropic-rs/tree/master/tropic01-example-rpi",
+          "title": "/tree/master/tropic01-example-rpi",
+          "uniques": 2
+        },
+        {
+          "count": 2,
+          "path": "/tropicsquare/libtropic-rs/tree/master/tropic01-example-usb-devkit",
+          "title": "/tree/master/tropic01-example-usb-devkit",
+          "uniques": 2
+        },
+        {
+          "count": 1,
+          "path": "/tropicsquare/libtropic-rs/blob/master/tropic01-example-rpi/README.md",
+          "title": "/blob/master/tropic01-example-rpi/README.md",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/tropicsquare/libtropic-rs/blob/master/tropic01-example-rpi/src/linux.rs",
+          "title": "/blob/master/tropic01-example-rpi/src/linux.rs",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/tropicsquare/libtropic-rs/blob/master/tropic01-example-usb-devkit/src/main.rs",
+          "title": "/blob/master/tropic01-example-usb-devkit/src/main.rs",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/tropicsquare/libtropic-rs/blob/master/tropic01/src/lib.rs",
+          "title": "/blob/master/tropic01/src/lib.rs",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/tropicsquare/libtropic-rs/tree/master/tropic01",
+          "title": "/tree/master/tropic01",
+          "uniques": 1
+        }
+      ],
+      "popular_referrers": [
+        {
+          "count": 23,
+          "referrer": "github.com",
+          "uniques": 6
+        },
+        {
+          "count": 1,
+          "referrer": "tropicsquare.com",
+          "uniques": 1
+        }
+      ],
+      "pushed_at": "2026-07-15T17:34:57Z",
+      "referrers_error": "",
+      "referrers_status": "ok",
+      "repository": "tropicsquare/libtropic-rs",
+      "stars": 10,
+      "traffic_daily": [
+        {
+          "clones_total": 2,
+          "clones_unique": 2,
+          "date": "2026-07-13",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 1,
+          "clones_unique": 1,
+          "date": "2026-07-14",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 24,
+          "clones_unique": 5,
+          "date": "2026-07-15",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 1,
+          "clones_unique": 1,
+          "date": "2026-07-16",
+          "views_total": 11,
+          "views_unique": 3
+        },
+        {
+          "clones_total": 2,
+          "clones_unique": 2,
+          "date": "2026-07-17",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 2,
+          "clones_unique": 2,
+          "date": "2026-07-18",
+          "views_total": 10,
+          "views_unique": 2
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-19",
+          "views_total": 2,
+          "views_unique": 2
+        },
+        {
+          "clones_total": 9,
+          "clones_unique": 5,
+          "date": "2026-07-20",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 1,
+          "clones_unique": 1,
+          "date": "2026-07-21",
+          "views_total": 4,
+          "views_unique": 1
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-22",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 3,
+          "clones_unique": 2,
+          "date": "2026-07-23",
+          "views_total": 1,
+          "views_unique": 1
+        },
+        {
+          "clones_total": 1,
+          "clones_unique": 1,
+          "date": "2026-07-24",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 1,
+          "clones_unique": 1,
+          "date": "2026-07-25",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 2,
+          "clones_unique": 2,
+          "date": "2026-07-26",
+          "views_total": 2,
+          "views_unique": 1
+        }
+      ],
+      "traffic_error": "",
+      "traffic_status": "ok",
+      "views_14d_total": 30,
+      "views_14d_unique": 9,
+      "watchers": 4
+    },
+    {
+      "captured_at_utc": "2026-07-27T11:56:24.339332+00:00",
+      "clones_14d_total": null,
+      "clones_14d_unique": null,
+      "default_branch": "main",
+      "forks": 1,
+      "latest_release": null,
+      "open_issues": 0,
+      "open_pull_requests": 0,
+      "paths_error": "http_403",
+      "paths_status": "unavailable",
+      "popular_paths": [],
+      "popular_referrers": [],
+      "pushed_at": "2026-03-04T22:17:01Z",
+      "referrers_error": "http_403",
+      "referrers_status": "unavailable",
+      "repository": "tropicsquare/libtropic-go",
+      "stars": 3,
+      "traffic_daily": [],
+      "traffic_error": "http_403",
+      "traffic_status": "unavailable",
+      "views_14d_total": null,
+      "views_14d_unique": null,
+      "watchers": 1
+    },
+    {
+      "captured_at_utc": "2026-07-27T11:56:25.838254+00:00",
+      "clones_14d_total": 6,
+      "clones_14d_unique": 6,
+      "default_branch": "public",
+      "forks": 3,
+      "latest_release": null,
+      "open_issues": 0,
+      "open_pull_requests": 0,
+      "paths_error": "",
+      "paths_status": "ok",
+      "popular_paths": [
+        {
+          "count": 16,
+          "path": "/tropicsquare/ts-tr01-app",
+          "title": "Overview",
+          "uniques": 10
+        },
+        {
+          "count": 2,
+          "path": "/tropicsquare/ts-tr01-app/blob/10c1c3aff4a5b9b1c955acfdcbf78d14678fd037/main/main.c",
+          "title": "/blob/10c1c3aff4a5b9b1c955acfdcbf78d14678fd037/main/main.c",
+          "uniques": 2
+        },
+        {
+          "count": 2,
+          "path": "/tropicsquare/ts-tr01-app/tree/public/main",
+          "title": "/tree/public/main",
+          "uniques": 2
+        },
+        {
+          "count": 2,
+          "path": "/tropicsquare/ts-tr01-app/blob/public/main/main.c",
+          "title": "/blob/public/main/main.c",
+          "uniques": 1
+        },
+        {
+          "count": 2,
+          "path": "/tropicsquare/ts-tr01-app/tree/10c1c3aff4a5b9b1c955acfdcbf78d14678fd037/main",
+          "title": "/tree/10c1c3aff4a5b9b1c955acfdcbf78d14678fd037/main",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/tropicsquare/ts-tr01-app/blob/10c1c3aff4a5b9b1c955acfdcbf78d14678fd037/main/cfg.c",
+          "title": "/blob/10c1c3aff4a5b9b1c955acfdcbf78d14678fd037/main/cfg.c",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/tropicsquare/ts-tr01-app/blob/10c1c3aff4a5b9b1c955acfdcbf78d14678fd037/main/main.h",
+          "title": "/blob/10c1c3aff4a5b9b1c955acfdcbf78d14678fd037/main/main.h",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/tropicsquare/ts-tr01-app/blob/10c1c3aff4a5b9b1c955acfdcbf78d14678fd037/main/tls.c",
+          "title": "/blob/10c1c3aff4a5b9b1c955acfdcbf78d14678fd037/main/tls.c",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/tropicsquare/ts-tr01-app/blob/public/main/api/tropic01_l3_api.h",
+          "title": "/blob/public/main/api/tropic01_l3_api.h",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/tropicsquare/ts-tr01-app/blob/public/main/tls.c",
+          "title": "/blob/public/main/tls.c",
+          "uniques": 1
+        }
+      ],
+      "popular_referrers": [
+        {
+          "count": 24,
+          "referrer": "github.com",
+          "uniques": 10
+        }
+      ],
+      "pushed_at": "2025-10-20T07:36:55Z",
+      "referrers_error": "",
+      "referrers_status": "ok",
+      "repository": "tropicsquare/ts-tr01-app",
+      "stars": 6,
+      "traffic_daily": [
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-13",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-14",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-15",
+          "views_total": 3,
+          "views_unique": 2
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-16",
+          "views_total": 4,
+          "views_unique": 2
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-17",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 2,
+          "clones_unique": 2,
+          "date": "2026-07-18",
+          "views_total": 7,
+          "views_unique": 4
+        },
+        {
+          "clones_total": 1,
+          "clones_unique": 1,
+          "date": "2026-07-19",
+          "views_total": 2,
+          "views_unique": 1
+        },
+        {
+          "clones_total": 1,
+          "clones_unique": 1,
+          "date": "2026-07-20",
+          "views_total": 22,
+          "views_unique": 1
+        },
+        {
+          "clones_total": 2,
+          "clones_unique": 2,
+          "date": "2026-07-21",
+          "views_total": 5,
+          "views_unique": 2
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-22",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-23",
+          "views_total": 2,
+          "views_unique": 2
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-24",
+          "views_total": 2,
+          "views_unique": 2
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-25",
+          "views_total": 0,
+          "views_unique": 0
+        },
+        {
+          "clones_total": 0,
+          "clones_unique": 0,
+          "date": "2026-07-26",
+          "views_total": 0,
+          "views_unique": 0
+        }
+      ],
+      "traffic_error": "",
+      "traffic_status": "ok",
+      "views_14d_total": 47,
+      "views_14d_unique": 12,
+      "watchers": 0
+    }
+  ],
+  "run": {
+    "completed_at_utc": "2026-07-27T11:56:26.334854+00:00",
+    "repositories_total": 7,
+    "repositories_with_paths": 6,
+    "repositories_with_referrers": 6,
+    "repositories_with_traffic": 6,
+    "status": "success"
+  }
+}
